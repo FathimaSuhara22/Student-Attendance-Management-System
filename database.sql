@@ -18,8 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `attendance_db`
---
+create Database attendance_db;
+
+USE attendance_db;
+
 
 -- --------------------------------------------------------
 
