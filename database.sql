@@ -1,9 +1,38 @@
+member-3
+
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Nov 07, 2026 at 08:29 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
+ main
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
+
 -- Database: `attendance_db`
+
+=======
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+create Database attendance_db;
+
+USE attendance_db;
+
+
+-- --------------------------------------------------------
+
+--
 
 -- Table structure for table `attendance_records`
 --
@@ -307,4 +336,9 @@ ALTER TABLE `lectures`
 ALTER TABLE `otp_sessions`
   ADD CONSTRAINT `otp_sessions_ibfk_1` FOREIGN KEY (`lecture_id`) REFERENCES `lectures` (`lecture_id`) ON DELETE CASCADE;
 COMMIT;
+ 
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
