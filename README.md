@@ -1,4 +1,3 @@
-
 # Student Management System
 
 A simple web-based system to manage student records and track attendance.
@@ -34,7 +33,5 @@ A simple web-based system to manage student records and track attendance.
 3. Create a new database and import the database.sql file
 4. Update your database connection details in db.php
 5. Open your browser and go to http://localhost/Student Management System/
-
-
 
 

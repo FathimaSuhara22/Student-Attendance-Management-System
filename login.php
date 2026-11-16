@@ -26,6 +26,12 @@ include 'header.php';
     <input type="password" name="password" required>
     <button class="btn">Login</button>
   </form>
+
   <p>Demo: admin, lec_perera, suhara (password: <b>password</b>)</p>
+
+
+  <p>Demo: admin, lec_perera, suhara (password: <b>password</b>)</p>
+
+
 </div>
 <?php include 'footer.php'; ?>
