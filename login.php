@@ -30,5 +30,8 @@ include 'header.php';
   <p>Demo: admin, lec_perera, suhara (password: <b>password</b>)</p>
 
 
+  <p>Demo: admin, lec_perera, suhara (password: <b>password</b>)</p>
+
+
 </div>
 <?php include 'footer.php'; ?>
